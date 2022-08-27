@@ -146,4 +146,10 @@
     display: inline-flex;
     gap: 5em;
   }
+
+  @media screen and (max-width: 600px) {
+    .buttons {
+      flex-direction: column;
+    }
+  }
 </style>
